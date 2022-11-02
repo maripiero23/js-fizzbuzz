@@ -1,16 +1,24 @@
 /*creo una variabile per prendermi l'elemento html*/
 const boardContainer = document.querySelector(".board-container")
 
-/*creo le variabili*/
-let textFizz = "Fizz";
-let textBuzz = "Buzz";
+
 
 /* creo un ciclo in cui ad ogni iterazione stampo un elemento html*/
 for (let i = 1; i <= 100; i++) {
-    console.log(i);
+   
 
-    if(i % 3 === 0){
-        console.log(textFizz);
+    if(i % 3 ===0 && i % 5 ===0 ){
+        console.log("Fizz");
+
+    }else if(i % 3 === 0){
+        console.log("Buzz");
+
+
+    } else if(i % 5 === 0){
+        console.log("FizzBuzz");
+
+    }else {
+        console.log(i);
 
     }
 
