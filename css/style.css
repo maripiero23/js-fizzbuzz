@@ -1,0 +1,12 @@
+.board-container{
+    border: 1px dashed green;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.board-chess{
+    width: calc(100% / 7);
+    aspect-ratio: 1/1;
+    display: inline-block;
+    border: 1px dashed red;
+}
