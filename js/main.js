@@ -8,15 +8,15 @@ for (let i = 1; i <= 100; i++) {
    
     /*vado a stampare FizzBuzz per i numeri multipli di 3 e 5(15)*/
     if(i % 3 ===0 && i % 5 ===0 ){
-        console.log("Fizz");
+        console.log("FizzBuzz");
 
     /*vado a stampare FizzBuzz per i numeri multipli di 3*/
     }else if(i % 3 === 0){
-        console.log("Buzz");
+        console.log("Fizz");
 
     /*vado a stampare FizzBuzz per i numeri multipli di 5*/
     } else if(i % 5 === 0){
-        console.log("FizzBuzz");
+        console.log("Buzz");
 
     /*stampo tutti gli altri numeri*/
     }else {
